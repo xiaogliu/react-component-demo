@@ -1,3 +1,6 @@
+# react-project-demo
+This project includes react component demos that I write.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
