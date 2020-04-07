@@ -1,6 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ReactSweetSwiper from "react-sweet-swiper";
+import "react-sweet-swiper/dist/main.css";
+
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -19,6 +22,17 @@ function App() {
           Learn React
         </a>
       </header>
+      <ReactSweetSwiper itemsPerGroup={3}>
+        <div>hahahaha</div>
+        <div>hahahaha</div>
+        <div>hahahaha</div>
+        <div>hahahaha</div>
+        <div>hahahaha</div>
+        <div>hahahaha</div>
+        <div>hahahaha</div>
+        <div>hahahaha</div>
+        <div>hahahaha</div>
+      </ReactSweetSwiper>
     </div>
   );
 }
